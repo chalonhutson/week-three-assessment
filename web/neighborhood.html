@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighborhood</title>
+    <link href="neighborhood.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	    </ol>
+	</nav>
+    <content>
+        <img src="https://cache.desktopnexus.com/wallpapers/1469/1469657-1920x1080-utah-mountain-ranges-hd720p.jpg?st=6APyxOPsiTppsT08KMsUHA&e=1627056704" id="timpview">
+
+        <h1>Geneva - Orem, Utah</h1>
+        <h2>Community in Utah Valley with a view of Mount Timpanogos</h2>
+
+        <div id="park">
+            <h3>Parks and  attractions nearby</h3>
+            <ul>
+                <li><a href="https://goo.gl/maps/47NVGVAA2yKDbDyG6">The All-Together Playground</a></li>
+                <li><a href="https://orem.org/bonneville/">Bonneville Park</a></li>
+                <li><a href="https://goo.gl/maps/GBf4FkkVKMJysb319">The Monolith</a></li>
+            </ul>
+        </div>
+        <div id="picker">
+            <h3>Restaurant Picker 9000</h3>
+            <p id="chosen"></p>
+            <div id="btn">
+                <div>
+                    <p>Major chains: </p>
+                    <input type="radio" id="major" name="rp9000">
+                </div>
+            </div>
+            <div id="btn">
+                <p>Local chains // Mom & Pop: </p>
+                <input type="radio" id="minor" name="rp9000">
+            </div>
+                <input type="button" id="pickBtn" value="Pick a restaurant">
+        </div>
+    </content>
+    <script src="neighborhood.js"></script>
+</body>
+</html>

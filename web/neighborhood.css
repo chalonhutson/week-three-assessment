@@ -1,0 +1,104 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+h1 {
+text-align: center;
+}
+
+h2 {
+text-align: center;
+}
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+#park {
+	text-align: center;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: fit-content;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 3px solid black;
+	border-radius: 10px ;
+}
+
+#picker {
+	margin-top: 20px;
+	text-align: center;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: fit-content;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 3px solid black;
+	border-radius: 10px ;
+}
+
+
+#delaware {
+	max-width: 50vw;
+}
+#timpview {
+	max-width: 450px;
+	margin-top: 25px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.prof-btn {
+	font-size: medium;
+	padding: 10px;
+	background-color: yellow;
+	color: black;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+/* #picker {
+
+} */
+
+#btn {
+	font-size: small;
+	display: list-item;
+}

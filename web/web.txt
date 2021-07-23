@@ -1,0 +1,12 @@
+1. How does the internet work?
+
+The root concept is simply connecting separate computers with each other to communicate with one another. You can connect computers together via ethernet cables, but this becomes difficult if you are distant and don't have enough ports. In order to help decide which computers communicate with which other computer when, there are routers, which can operate as a central point to direct communication. But again this becomes impossible if you have millions of computers across the entire world.
+
+So the internet is the concept of millions (maybe billions now) of the computers in the world, communicating with each other, taking the original concept to the extreme. Computers can search for others and send/receive info through central ISP companies who can direct massive amounts of traffic each second, and send information back and forth. It is often, though not always, done through webpages, which can be accessed via an IP address. However most sites also have a domain name which is registered with the DNS, and allows for easier access for most people.
+
+
+2. What happens when you click on a link?
+
+The web browser interprets the click using its HTML and/or Javascript code, and will attempt to send the user to a different site or webpage.
+
+The browser will have the computer send a request to this new site, attempting to access the page, which will hopefully be recieved by the server of the website itself. The server will process the request, then send a response with a status code, which will hopefully then allow the user to see the new web page.

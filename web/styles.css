@@ -36,3 +36,22 @@ input {
 img {
 	max-width: 300px;
 }
+
+#delaware {
+	max-width: 50vw;
+}
+#timpview {
+	max-width: 450px;
+	margin-top: 25px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.prof-btn {
+	font-size: medium;
+	padding: 10px;
+	background-color: yellow;
+	color: black;
+	border: 2px solid black;
+	border-radius: 10px;
+}
